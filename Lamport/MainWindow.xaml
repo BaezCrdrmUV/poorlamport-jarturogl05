@@ -7,6 +7,33 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="140" Margin="61,71,0,0" Stroke="Black" VerticalAlignment="Top" Width="196"/>
+        <Button x:Name="Btn_SendP1" Content="Enviar mensaje" HorizontalAlignment="Left" Margin="61,178,0,0" VerticalAlignment="Top" Width="196" Click="Btn_SendP1_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="70,78,0,0" TextWrapping="Wrap" Text="Proceso 1" VerticalAlignment="Top"/>
+        <TextBox x:Name="txb_Log" HorizontalAlignment="Left" Height="146" Margin="61,244,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="652" RenderTransformOrigin="-0.167,0.208" ScrollViewer.CanContentScroll="True" IsReadOnly="True" />
+        <ComboBox x:Name="cbb_p1" HorizontalAlignment="Left" Margin="162,127,0,0" VerticalAlignment="Top" Width="95">
+            <ComboBoxItem Content="Proceso 2" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="Proceso 3" HorizontalAlignment="Left" Width="92"/>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="61,127,0,0" TextWrapping="Wrap" Text="Selecciona destinatario" VerticalAlignment="Top" Width="96"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="140" Margin="286,71,0,0" Stroke="Black" VerticalAlignment="Top" Width="196"/>
+        <Button x:Name="Btn_SendP2" Content="Enviar mensaje" HorizontalAlignment="Left" Margin="286,178,0,0" VerticalAlignment="Top" Width="196" Click="Btn_SendP2_Click" />
+        <TextBlock HorizontalAlignment="Left" Margin="295,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Proceso "/><Run Text="2"/></TextBlock>
+        <ComboBox x:Name="cbb_p2" HorizontalAlignment="Left" Margin="387,127,0,0" VerticalAlignment="Top" Width="95">
+            <ComboBoxItem Content="Proceso 1" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="Proceso 3" HorizontalAlignment="Left" Width="92"/>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="286,127,0,0" TextWrapping="Wrap" Text="Selecciona destinatario" VerticalAlignment="Top" Width="96"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="140" Margin="517,71,0,0" Stroke="Black" VerticalAlignment="Top" Width="196"/>
+        <Button x:Name="Btn_SendP3" Content="Enviar mensaje" HorizontalAlignment="Left" Margin="517,178,0,0" VerticalAlignment="Top" Width="196" Click="Btn_SendP3_Click" />
+        <TextBlock HorizontalAlignment="Left" Margin="526,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Proceso "/><Run Text="3"/></TextBlock>
+        <ComboBox x:Name="cbb_p3" HorizontalAlignment="Left" Margin="618,127,0,0" VerticalAlignment="Top" Width="95">
+            <ComboBoxItem Content="Proceso 1" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="Proceso 2" HorizontalAlignment="Left" Width="92"/>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="517,127,0,0" TextWrapping="Wrap" Text="Selecciona destinatario" VerticalAlignment="Top" Width="96"/>
+
+
+
     </Grid>
 </Window>
